@@ -1,0 +1,31 @@
+{
+  "name": "javascript-hackathon",
+  "version": "1.0.0",
+  "description": "A landing page for  JavaScript Hackatone I did for Microverse first module capstone project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FevenSeyfu/Javascript-Hackathon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FevenSeyfu/Javascript-Hackathon/issues"
+  },
+  "homepage": "https://github.com/FevenSeyfu/Javascript-Hackathon#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^2.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
