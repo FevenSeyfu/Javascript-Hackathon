@@ -39,7 +39,7 @@ html {
     "hero" auto
     "logo" auto
     "speaker" auto
-    "partner-logo" auto
+    "partners-logo" auto
     "footer" 1fr;
 }
 
@@ -176,6 +176,13 @@ html {
   margin: 1rem  auto;
 }
 
+.header {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #000;
+}
+
 .logo-img-container {
   width: 80%;
   margin: 0.5rem auto 4rem;
@@ -236,4 +243,40 @@ html {
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
   font-weight: 700;
+}
+
+/* Style partners logo section */
+.partners-logo {
+  background-color: var(--dark);
+}
+
+.partners-logo .header {
+  color: #fff;
+}
+
+.logos-container {
+  display: grid;
+  row-gap: 2rem;
+}
+
+.logo-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 40px;
+}
+
+.logo-row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 40px;
+}
+
+.partner-logo {
+  height: 2rem;
 }
