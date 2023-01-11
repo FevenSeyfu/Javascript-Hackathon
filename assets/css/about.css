@@ -3,3 +3,148 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --primary: #ec5242;
+  --dark: #272a31;
+  --light-gray: #d3d3d3;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.dark {
+  color: var(--dark);
+}
+
+html {
+  font-family: "Lato", "Lucida Grande", Tahoma, sans-serif;
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+.layout {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid:
+    "navbar" auto
+    "hero" auto
+    "logo" auto
+    "speaker" auto
+    "partner-logo" auto
+    "footer" 1fr;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.navbar {
+  grid-area: navbar;
+  width: 100%;
+  height: 63px;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.hero {
+  grid-area: hero;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.hero::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  background-image: url('/assets/images/about-hero-bg.png');
+  background-color: #d8d8d8;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
+}
+
+.hero-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.primary-text {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 900;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.supporting-text {
+  color: var(--primary);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.description,
+.description-hero {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.01em;
+  color: #515151;
+  margin-top: 1rem;
+}
+
+.description-hero {
+  background: #f8f8f8;
+  border: 4px solid #fff;
+  padding: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.hero-contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+.hero-contact-description {
+  font-family: 'Latio', sans-serif;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.hero-contact-email {
+  font-weight: 900;
+  color: var(--dark);
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
