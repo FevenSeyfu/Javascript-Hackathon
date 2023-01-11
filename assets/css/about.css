@@ -160,7 +160,7 @@ html {
   gap: 2rem;
 }
 
-.logo-description {
+.description {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -181,4 +181,59 @@ html {
   margin: 0.5rem auto 4rem;
   border: 1px solid #d3d3d3;
   box-shadow: 1px 1px 1px 1px #d3d3d3;
+}
+
+.speaker {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.event-img-placeholder {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  width: 80%;
+  height: auto;
+  margin: 1rem auto;
+  position: relative;
+}
+
+.wrap::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--primary);
+  opacity: 0.5;
+  z-index: 999;
+}
+
+.event-text-box {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: #fff;
+  z-index: 999999;
+  text-align: center;
+}
+
+.event-year {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.event-desc {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
 }
