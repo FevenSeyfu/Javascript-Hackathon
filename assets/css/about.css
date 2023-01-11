@@ -280,3 +280,36 @@ html {
 .partner-logo {
   height: 2rem;
 }
+
+.footer {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 4rem;
+  width: 100%;
+  padding: 2rem 1rem;
+  gap: 1rem;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.logo-moto {
+  line-height: 1.3rem;
+  font-weight: 900;
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer-copyright {
+  float: right;
+}
