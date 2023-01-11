@@ -10,6 +10,14 @@
   --light-gray: #d3d3d3;
 }
 
+.primary {
+  color: var(--primary);
+}
+
+.dark {
+  color: var(--dark);
+}
+
 html {
   font-family: "Lato", "Lucida Grande", Tahoma, sans-serif;
 }
@@ -232,6 +240,85 @@ html {
 
 .speaker {
   grid-area: speaker;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 10px;
+}
+
+.main-title.dark {
+  color: #000;
+}
+
+.divider-dark {
+  width: 30px;
+  height: 0;
+  border: 1.42315px solid #d9d9d9;
+  margin: 0.5rem 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.speaker-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.speaker-card {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+}
+
+.speaker-name {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.speaker-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.speaker-description {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.8rem;
+  line-height: 15px;
+}
+
+.more-btn-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.more-btn {
+  width: 90%;
+  margin: 0.5rem auto;
+  padding: 0.5rem 0;
+  border: 2px solid #d3d3d3;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px #d3d3d3;
+
+  /* style font */
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #000;
 }
 
 /* Desktop version */
