@@ -8,22 +8,28 @@
 	<title>Javascript Hackathon - About page</title>
 </head>
 <body>
-  <div class="container">
+  <header>
+		<nav class="navbar mobile hide" id="mobile-menu">
+		  <div>
+        <img src="assets/images/icons/Cancel-Icon.svg" alt="menu icon" class="menu-icon" id="cancle-icon">
+			</div>
+		  <ul class="nav-items">
+				<li class="nav-item"><a href="index.html">home</a></li>
+				<li class="nav-item"><a href="">Program</a></li>
+				<li class="nav-item"><a href="">Join</a></li>
+				<li class="nav-item"><a href="">Sponser</a></li>
+				<li class="nav-item"><a href="">News</a></li>
+				<li class="nav-item nav-btn"><a href="">CC Campaign</a></li>
+			</ul>
+		</nav>
+	</header>
+  <div class="container show" id="main-body">
 		<header>
 			<nav class="navbar mobile">
 				<div>
-					<img src="assets/images/icons/hamburger-icon.svg" alt="menu icon" class="menu-icon"></div>
-				<div class="mobile-menu">
-					<ul class="nav-items">
-						<li class="nav-item">About</li>
-						<li class="nav-item">Program</li>
-						<li class="nav-item">Join</li>
-						<li class="nav-item">Sponser</li>
-						<li class="nav-item">News</li>
-						<li class="nav-item nav-btn">CC Campaign</li>
-					</ul>
+					<img src="assets/images/icons/hamburger-icon.svg" alt="menu icon" class="menu-icon" id="menu-icon">
 				</div>
-			</nav>
+				</nav>
 		</header>
 		<section class="hero">
 		  <div class="hero-heading">
@@ -104,6 +110,6 @@
 			</div>
 		</section>
 	</div>
-	<script src="assets/Js/mobile-menu.js"></script>
+  <script src="assets/Js/mobile-menu.js"></script>
 </body>
 </html>
