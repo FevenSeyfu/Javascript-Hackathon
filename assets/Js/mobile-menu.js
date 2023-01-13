@@ -8,13 +8,10 @@ const mobileMenu = document.getElementById('mobile-menu');
 
 function displayMobileMenu() {
   if (mobileScreen.matches) {
-    // mainBody.style.display = 'none';
-    // mobileMenu.style.display = 'block';
     mainBody.classList.replace('show', 'hide');
     mobileMenu.classList.replace('hide', 'show');
     mobileMenu.classList.add('mobile-menu-style');
   }
-  // window.addEventListener('resize', reverseEvent);
 }
 
 function hideMobileMenu() {
