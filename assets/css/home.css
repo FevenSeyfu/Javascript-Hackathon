@@ -167,7 +167,7 @@ html {
   width: 100%;
   height: auto;
   opacity: 0.9;
-  background-image: url('/assets/images/dark-backgound.png');
+  background-image: url('assets/images/dark-backgound.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
