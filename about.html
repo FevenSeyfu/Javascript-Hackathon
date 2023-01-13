@@ -8,13 +8,13 @@
 	<title>Javascript Hackathon - About page</title>
 </head>
 <body>
-  <header>
-		<nav class="navbar mobile hide" id="mobile-menu">
+  <header >
+		<nav class="navbar hide" id="mobile-menu">
 		  <div>
         <img src="assets/images/icons/Cancel-Icon.svg" alt="menu icon" class="menu-icon" id="cancle-icon">
 			</div>
 		  <ul class="nav-items">
-				<li class="nav-item"><a href="index.html">home</a></li>
+				<li class="nav-item"><a href="about.html">About</a></li>
 				<li class="nav-item"><a href="">Program</a></li>
 				<li class="nav-item"><a href="">Join</a></li>
 				<li class="nav-item"><a href="">Sponser</a></li>
@@ -23,14 +23,29 @@
 			</ul>
 		</nav>
 	</header>
-  <div class="container show" id="main-body">
-		<header>
-			<nav class="navbar mobile">
-				<div>
-					<img src="assets/images/icons/hamburger-icon.svg" alt="menu icon" class="menu-icon" id="menu-icon">
-				</div>
-				</nav>
-		</header>
+	<header class="desktop">
+    <article class="toolbar">
+      <a href="#"><img src="assets/images/icons/facebook-icon.png" alt="facebook icon" class="toolbar-item"></a>
+			<a href="#"><img src="assets/images/icons/twitter.png" alt="twitter icon" class="toolbar-item"></a>
+			<a href="#" class="toolbar-item">English</a>
+			<a href="#" class="toolbar-item">My page</a>
+			<a href="#" class="toolbar-item">Logout</a>
+		</article>
+    <nav class="navbar-desktop">
+      <a href="index.html"><img src="assets/images/logo.png" alt="logo" class="nav-logo"></a>
+			<ul class="nav-items-desktop">
+        <li><a href="about.html"class="nav-item-desktop">About</a></li>
+				<li><a href="#" class="nav-item-desktop">Program</a></li>
+				<li><a href="#" class="nav-item-desktop">Join</a></li>
+				<li><a href="#" class="nav-item-desktop">Sponser</a></li>
+				<li><a href="#" class="nav-item-desktop">News</a></li>
+				<li class="nav-item-desktop nav-btn">
+           <button class="top-btn">JS Hackathon</button>
+				</li>
+
+			</ul>
+		</nav>
+	</header>
 		<section class="hero">
 		  <div class="hero-heading">
 				<span><p class="supporting-text">"Hello coding world"</p></span>
