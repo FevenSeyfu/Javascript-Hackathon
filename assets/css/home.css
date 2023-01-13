@@ -119,7 +119,6 @@ html {
   background-image: url('assets/images/primary-text-bg.jpg');
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* stylelint-disable-next-line csstree/validator */
   background-clip: text;
   word-wrap: break-word;
 }
