@@ -457,4 +457,49 @@ html {
     font-size: 4rem;
     word-wrap: break-word;
   }
+
+  /* Desktop program section */
+  .program {
+    margin-top: 105px;
+    padding: 1rem 3rem;
+		width: 100%;
+    height: auto;
+  }
+
+  .program-cards-container {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-rows: 400px;
+    gap: 1rem;
+    padding: 0;
+  }
+
+  .program-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+
+  .program-icon {
+    width: 64px;
+    height: 58px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .program-title,
+  .program-description {
+    text-align: center;
+  }
+
+  .program-link {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    margin: 1rem auto;
+  }
 }
