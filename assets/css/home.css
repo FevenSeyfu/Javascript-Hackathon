@@ -116,12 +116,11 @@ html {
   font-size: 3rem;
   font-weight: 900;
   background-image: url('/assets/images/primary-text-bg.jpg');
-  background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* stylelint-disable-next-line csstree/validator */
   background-clip: text;
-  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .supporting-text {
@@ -438,5 +437,24 @@ html {
     font-weight: 800;
     font-size: 14px;
     color: #ec4327;
+  }
+
+  /* hero section */
+  .hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15rem;
+  }
+
+  .hero::after {
+    top: 105px;
+  }
+
+  .primary-text {
+    font-size: 4rem;
+    word-wrap: break-word;
   }
 }
