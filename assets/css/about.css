@@ -93,7 +93,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 1rem;
+  padding: 0 10%;
 }
 
 .hero::after {
@@ -103,7 +103,7 @@ html {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   opacity: 0.9;
   background-image: url('/assets/images/about-hero-bg.png');
   background-color: #eaeaeb;
@@ -224,6 +224,7 @@ html {
   justify-content: center;
   text-align: center;
   gap: 2rem;
+  border-top: 1px solid #d3d3d3;
 }
 
 .event-img-placeholder {
@@ -236,6 +237,7 @@ html {
   height: auto;
   margin: 1rem auto;
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .wrap::before {
@@ -312,6 +314,7 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   column-gap: 4rem;
   width: 100%;
   padding: 2rem 1rem;
@@ -436,5 +439,42 @@ html {
     font-weight: 800;
     font-size: 14px;
     color: #ec4327;
+  }
+
+  .hero {
+    padding: 0 20%;
+    margin-top: 105px;
+  }
+
+  .hero::after {
+    top: 105px;
+    height: 100%;
+    padding-bottom: 5rem;
+  }
+
+  .logo {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .events-img-container {
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0;
+  }
+
+  .event-text-box {
+    margin: 0 auto;
+  }
+
+  .partners-logo {
+    display: none;
+  }
+
+  .footer {
+    background-color: var(--dark);
+    color: #d3d3d3;
+    gap: 2rem;
   }
 }
