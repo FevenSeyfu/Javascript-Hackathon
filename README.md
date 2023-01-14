@@ -14,6 +14,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Project presentation](#present-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -59,13 +60,19 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO AND PROJECT PRESENTATION -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Portfolio link.
 
 - [My Portfolio](https://fevenseyfu.github.io/portfolio-v1/)
+## 🚀 presentation <a name="present-demo"></a>
+
+> Presntation link.
+
+- [My presentation](https://www.loom.com/share/a22f0e608dc5466a9117d5edade6a8bd)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
