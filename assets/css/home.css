@@ -104,7 +104,7 @@ html {
   top: 0;
   width: 100%;
   opacity: 0.9;
-  background-image: url('../assets/images/Hero-background.png');
+  background-image: url('./assets/images/Hero-background.png');
   background-repeat: no-repeat;
   background-size: 100%;
   z-index: -1;
@@ -116,7 +116,7 @@ html {
   text-align: left;
   font-size: 3rem;
   font-weight: 900;
-  background-image: url('../assets/images/primary-text-bg.jpg');
+  background-image: url('./assets/images/primary-text-bg.jpg');
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* stylelint-disable-next-line csstree/validator */
@@ -167,7 +167,7 @@ html {
   width: 100%;
   height: auto;
   opacity: 0.9;
-  background-image: url('../assets/images/dark-backgound.png');
+  background-image: url('./assets/images/dark-backgound.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
