@@ -14,6 +14,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+	- [project presentation](#project-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -44,9 +45,6 @@
 ![ CSS3 ](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![ Javascript ](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-### project presentation outline
-- [Project presentation]()
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -63,18 +61,26 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Portfolio link.
+> Project link.
 
-- [Live demo link](https://fevenseyfu.github.io/Javascript-Hackathon/)
+- [My Capestone Project](https://fevenseyfu.github.io/Javascript-Hackathon/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+##  Project Presentation <a name="project-presentation"></a>
 
-<!-- ## 💻 Getting Started <a name="getting-started"></a>
+> Project link.
+
+- [Project Presentation](https://www.loom.com/share/a22f0e608dc5466a9117d5edade6a8bd)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+ GETTING STARTED
+
+## 💻 Getting Started <a name="getting-started"></a>
 .
 
-To get a local copy up and running, follow these steps. -->
+To get a local copy up and running, follow these steps.
 
 - Step 1: Clone this project using this git comand "git clone", (if you don't have git installed please visit
 https://git-scm.com/downloads and install it).
@@ -138,7 +144,7 @@ If you like this project, don't forget to  give it a star.
 
 
 
-I would like to thank [Cindy Shin in Behance](https://www.behance.net/adagio07) for the orginal design.
+I would like to thank [Cindy Shin in Behance](https://www.behance.net/adagio07) the orginal designer of the template I used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
