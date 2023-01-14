@@ -196,6 +196,10 @@ html {
   padding: 0.5rem 1rem;
 }
 
+.program-card:hover {
+  border: 1px solid #fff;
+}
+
 .main-title {
   font-family: 'Lato', sans-serif;
   font-style: normal;
