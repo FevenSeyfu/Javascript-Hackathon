@@ -86,6 +86,6 @@ function addFeaturedSpeaker() {
   });
 }
 
-window.onload = () => {
+window.addEventListener('DOMContentLoaded', () => {
   addFeaturedSpeaker();
-};
+});

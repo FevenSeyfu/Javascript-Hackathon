@@ -194,10 +194,15 @@ html {
   background: #3b3e45;
   backdrop-filter: blur(5px);
   padding: 0.5rem 1rem;
+  width: fit-content;
 }
 
 .program-card:hover {
   border: 1px solid #fff;
+}
+
+.program-icon {
+  margin: auto 0;
 }
 
 .main-title {
@@ -233,6 +238,7 @@ html {
   line-height: 25px;
   letter-spacing: -0.01em;
   color: #ff5438;
+  width: fit-content;
 }
 
 .program-description {
@@ -245,6 +251,7 @@ html {
   display: flex;
   align-items: center;
   letter-spacing: 0.06em;
+  width: fit-content;
 }
 
 .main-btn {
@@ -484,11 +491,14 @@ html {
     justify-content: center;
     align-items: center;
     height: 300px;
+    padding: 1rem 1rem;
   }
 
   .program-icon {
-    width: 64px;
-    height: 58px;
+    position: absolute;
+    top: 1rem;
+    width: 3rem;
+    height: 2.8rem;
     margin: 0 auto;
     padding: 0;
   }
@@ -496,6 +506,18 @@ html {
   .program-title,
   .program-description {
     text-align: center;
+  }
+
+  .program-title {
+    position: absolute;
+    top: 4rem;
+  }
+
+  .program-description {
+    /* position: absolute; */
+    margin-top: 6rem;
+    margin-bottom: 0.5rem;
+    width: fit-content;
   }
 
   .program-link {
