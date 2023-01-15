@@ -440,8 +440,9 @@ html {
 
   .top-btn {
     box-sizing: border-box;
-    width: 123px;
+    width: 7.688rem;
     height: 48px;
+    margin-right: 1rem;
     background-color: white;
     border: 5px solid #ec4327;
     font-family: 'Lato', sans-serif;
@@ -449,6 +450,7 @@ html {
     font-weight: 800;
     font-size: 14px;
     color: #ec4327;
+    word-wrap: break-word;
   }
 
   /* hero section */
