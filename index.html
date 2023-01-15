@@ -4,9 +4,152 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- lato font -->
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+	<!-- cocogoose font -->
+	<link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+	<!-- home page style sheet -->
+	<link rel="stylesheet" href="assets/css/home.css">
 	<title>Javascript Hackathon - Home page</title>
 </head>
 <body>
+  <header >
+		<nav class="navbar hide" id="mobile-menu">
+		  <div>
+        <img src="assets/images/icons/Cancel-Icon.svg" alt="menu icon" class="menu-icon" id="cancle-icon">
+			</div>
+		  <ul class="nav-items">
+				<li class="nav-item"><a href="about.html">About</a></li>
+				<li class="nav-item"><a href="">Program</a></li>
+				<li class="nav-item"><a href="">Join</a></li>
+				<li class="nav-item"><a href="">Sponser</a></li>
+				<li class="nav-item"><a href="">News</a></li>
+				<li class="nav-item nav-btn"><a href="">CC Campaign</a></li>
+			</ul>
+		</nav>
+	</header>
+	<header class="desktop">
+    <article class="toolbar">
+      <a href="#"><img src="assets/images/icons/facebook-icon.png" alt="facebook icon" class="toolbar-item"></a>
+			<a href="#"><img src="assets/images/icons/twitter.png" alt="twitter icon" class="toolbar-item"></a>
+			<a href="#" class="toolbar-item">English</a>
+			<a href="#" class="toolbar-item">My page</a>
+			<a href="#" class="toolbar-item">Logout</a>
+		</article>
+    <nav class="navbar-desktop">
+			<a href="index.html"><img src="assets/images/logo.png" alt="logo" class="nav-logo"></a>
+			<ul class="nav-items-desktop">
+        <li><a href="about.html"class="nav-item-desktop">About</a></li>
+				<li><a href="#" class="nav-item-desktop">Program</a></li>
+				<li><a href="#" class="nav-item-desktop">Join</a></li>
+				<li><a href="#" class="nav-item-desktop">Sponser</a></li>
+				<li><a href="#" class="nav-item-desktop">News</a></li>
+				<li class="nav-item-desktop nav-btn">
+           <button class="top-btn">JS Hackathon</button>
+				</li>
 
+			</ul>
+		</nav>
+	</header>
+  <div class="container show" id="main-body">
+		<header class="mobile">
+			<nav class="navbar">
+				<div>
+					<img src="assets/images/icons/hamburger-icon.svg" alt="menu icon" class="menu-icon" id="menu-icon"></div>
+			</nav>
+		</header>
+		<section class="hero">
+		  <div class="hero-heading">
+				<span><p class="supporting-text">"Hello coding world"</p></span>
+				<h1 class="primary-text">Javascript Devs Hackathon 2023</h1>
+			</div>
+			<div>
+				<p class="description-hero">
+					Javascript Hackathon is an annual weekend long beginer friendly hackathon series for Javascript enthusiasts with developers from all over the world and different skill levels.
+				</p>
+			</div>
+			<div class="date-venue">
+				<h6 class="date">2023.02.04(SAT) ~ 5(SUN)</h6>
+				<p class="description venue">@ National Museum of Karea, Art Center Nabi and more
+        </p>
+			</div>
+		</section>
+		<section class="program">
+			<h2 class="main-title">Main Program</h2>
+			<hl class="divider"></hl>
+			<div class="program-cards-container">
+				<div class="program-card">
+					<img src="assets/images/icons/program-icon.png" alt="Program icon" class="program-icon">
+					<h3 class="program-title">Lecture</h3>
+					<p class="program-description">Listen to the speakers from various countries about the messages of sharing and opening.</p>
+				</div>
+				<div class="program-card">
+					<img src="assets/images/icons/program-icon-2.png" alt="Program icon" class="program-icon">
+					<h3 class="program-title">CC Exhibition</h3>
+					<p class="program-description">Appreciate various creations applying CC license of artists, organized from Art Center Nabi</p>
+				</div>
+				<div class="program-card">
+					<img src="assets/images/icons/program-icon-3.png" alt="Program icon" class="program-icon">
+					<h3 class="program-title">Forum</h3>
+					<p class="program-description">Have the time to share your thoughts and opinions with experts for each topic.</p>
+				</div>
+				<div class="program-card">
+					<img src="assets/images/icons/program-icon-4.png" alt="Program icon" class="program-icon">
+					<h3 class="program-title">Workshop</h3>
+					<p class="program-description">Try creating your own work using open source license rather than just watching at it.</p>
+				</div>
+				<div class="program-card">
+					<img src="assets/images/icons/program-icon-5.png" alt="Program icon" class="program-icon">
+					<h3 class="program-title">CC ignite</h3>
+					<p class="program-description">get opportunities to network with CC affiliates around the world, also after the summit.</p>
+				</div>
+			</div>
+			<button class="main-btn mobile">Join Javascript Hackathon 2023</button>
+      <a href="#" class="program-link desktop">SEE THE WHOLE PROGRAM</a>
+		</section>
+		<section class="speaker">
+			<h2 class="main-title dark">Featured Speakers</h2>
+			<hl class="divider"></hl>
+			<div class="speaker-cards-container" id="featured-speakers-container">
+				<!-- <div class="speaker-card 1">
+				  <div class="speaker-img">
+					  <img src="assets/images/speaker_avatar-1.png" alt="Speakers photo" class="speaker-avatar">
+				  </div>
+					<div class="speaker-description-container">
+						<h4 class="speaker-name" id="speaker-name">Speaker one</h4>
+						<p class="speaker-description primary" data-id="0" id="speaker-qualification">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex exercitationem vel vitae nostrum! .</p>
+						<div class="row"><hl class="divider-dark"></hl></div>
+						<p class="speaker-description dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error magni sunt fugit. Quaerat sint, ipsa mollitia, quae temporibus dignissimos cum similique optio maiores aspernatur deserunt saepe non reiciendis. Repudiandae, blanditiis.</p>
+					</div>
+				</div> -->
+			</div>
+		</section>
+		<div class="more-btn-box mobile">
+			<button class="more-btn">More <img src="assets/images/down-arrow.png" alt="" class="arrow-down-icon"></button>
+		</div>
+	<Section class="partners-logo desktop">
+		  <div class="description">
+				<h4 class="header">Partner</h4>
+      	<hl class="divider"></hl>
+				<div class="logos-container">
+					<img src="assets/images/partner-logo-mozilla.png" alt="logo of mozilla" class="partner-logo a">
+					<img src="assets/images/partner-logo-google.png" alt="logo of google" class="partner-logo b">
+					<img src="assets/images/partner-logo-naver.png" alt="logo of naver" class="partner-logo c">
+					<img src="assets/images/partner-logo-daumkakao.png" alt="logo of daumkakao" class="partner-logo d">
+					<img src="assets/images/partner-logo-airbnb.png" alt="logo of airbnb" class="partner-logo e">
+				</div>
+			</div>
+		</Section>
+		<section class="footer desktop">
+      <div class="footer-logo">
+			  <img src="assets/images/footer-logo.png" alt="logo" class="footer-img">
+				<h3 class="logo-moto">Creative commons <br> korea</h3>
+			</div>
+			<div>
+			  <p class="footer-copyright">2023 Javascript Hackathon some rights reserved.</p>
+			</div>
+		</section>
+</div>
+<script src="assets/Js/mobile-menu.js"></script>
 </body>
 </html>
