@@ -1,7 +1,7 @@
-
+![Landing page](https://github.com/FevenSeyfu/Javascript-Hackathon/blob/main/LandingPage.png)
 <div align="center">
 
-  <h3><b>Javascript Hackathon Landing page</b></h3>
+  <h1><b>Javascript Hackathon Landing page</b></h1>
 
 </div>
 
